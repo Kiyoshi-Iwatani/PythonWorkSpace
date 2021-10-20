@@ -1,3 +1,5 @@
 str1="abcdef"
-a=str1[::-1]
-print(a)
+idx=-1
+while idx>= -len(str1):
+    print(str1[idx])
+    idx-=1
