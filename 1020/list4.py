@@ -1,0 +1,6 @@
+n=input("整数を入力してください")
+number=range(1,int(n)+1)
+total=sum(number)
+avg=total/len(number)
+print(f"1~{n}までの合計：{total}")
+print(f"平均：{avg}")
